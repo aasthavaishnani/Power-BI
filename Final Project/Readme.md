@@ -1,8 +1,7 @@
-````markdown
-## Enterprise Sales BI & Return Risk Intelligence Dashboard
+# Enterprise Sales BI & Return Risk Intelligence Dashboard
 
-**Academic Semester VI Capstone Project**  
-**Track:** AI, Machine Learning & Data Science  
+**Academic Semester VI Capstone Project**
+**Track:** AI, Machine Learning & Data Science
 
 ---
 
@@ -16,11 +15,11 @@ The dashboard enables executives, marketing teams, and supply chain managers to 
 
 ## 🎯 Objectives
 
-- Analyze enterprise sales performance.
-- Identify high-value customers and profitable segments.
-- Monitor return trends and risk indicators.
-- Support data-driven decision making.
-- Deliver a responsive reporting experience across desktop and mobile devices.
+* Analyze enterprise sales performance.
+* Identify high-value customers and profitable segments.
+* Monitor return trends and risk indicators.
+* Support data-driven decision making.
+* Deliver a responsive reporting experience across desktop and mobile devices.
 
 ---
 
@@ -29,14 +28,16 @@ The dashboard enables executives, marketing teams, and supply chain managers to 
 The raw dataset contained missing values, duplicate records, and inconsistent formatting. Power Query was used to clean and transform the data.
 
 ### Data Cleaning
-- Removed duplicate records.
-- Handled null and missing values.
-- Standardized customer names.
-- Corrected formatting inconsistencies.
+
+* Removed duplicate records.
+* Handled null and missing values.
+* Standardized customer names.
+* Corrected formatting inconsistencies.
 
 ### Data Transformation
-- Converted fields into optimized data types.
-- Structured dates, currency values, and dimensional keys.
+
+* Converted fields into optimized data types.
+* Structured dates, currency values, and dimensional keys.
 
 ---
 
@@ -47,33 +48,38 @@ The project follows a **Star Schema** architecture.
 ### Fact Table
 
 #### Sales_Fact
+
 Stores transactional metrics:
 
-- Revenue
-- Profit
-- Quantity
-- Returns
-- Order Date
-- Foreign Keys
+* Revenue
+* Profit
+* Quantity
+* Returns
+* Order Date
+* Foreign Keys
 
 ### Dimension Tables
 
 #### Customer_Dim
-- Customer Profiles
-- Customer Segments
-  - Consumer
-  - Corporate
-  - Home Office
-- Regional Information
+
+* Customer Profiles
+* Customer Segments
+
+  * Consumer
+  * Corporate
+  * Home Office
+* Regional Information
 
 #### Product_Dim
-- Category
-- Sub-Category
-- Product Name
+
+* Category
+* Sub-Category
+* Product Name
 
 #### Date_Dim
-- Calendar Dates
-- Time Intelligence Support
+
+* Calendar Dates
+* Time Intelligence Support
 
 ---
 
@@ -169,19 +175,22 @@ CALCULATE(
 High-level business performance monitoring.
 
 #### KPI Cards
-- Total Sales
-- Total Profit
-- Profit Margin %
-- Total Orders
+
+* Total Sales
+* Total Profit
+* Profit Margin %
+* Total Orders
 
 #### Visualizations
-- Sales & Profit Trend (Line Chart)
-- Top 5 Products (Clustered Column Chart)
+
+* Sales & Profit Trend (Line Chart)
+* Top 5 Products (Clustered Column Chart)
 
 #### Interactive Features
-- Region Slicer
-- Reset Filters Button
-- Bookmark Navigation
+
+* Region Slicer
+* Reset Filters Button
+* Bookmark Navigation
 
 ---
 
@@ -190,19 +199,22 @@ High-level business performance monitoring.
 Customer segmentation and purchasing behavior analysis.
 
 #### KPI Cards
-- Sales Per Customer
-- Basket Size
-- Active Customers
-- High Value Customer Sales
+
+* Sales Per Customer
+* Basket Size
+* Active Customers
+* High Value Customer Sales
 
 #### Visualizations
-- Segment Share Treemap
-- Customer Performance Matrix
+
+* Segment Share Treemap
+* Customer Performance Matrix
 
 #### Additional Features
-- Conditional Formatting
-- Data Bars
-- Segment Analysis
+
+* Conditional Formatting
+* Data Bars
+* Segment Analysis
 
 ---
 
@@ -211,20 +223,22 @@ Customer segmentation and purchasing behavior analysis.
 Product performance and return risk analysis.
 
 #### KPI Cards
-- Units Sold
-- High Margin Sales
-- Total Returns
-- Return Rate %
+
+* Units Sold
+* High Margin Sales
+* Total Returns
+* Return Rate %
 
 #### Visualizations
-- Top 10 Products Chart
-- Return Risk Scatter Plot
+
+* Top 10 Products Chart
+* Return Risk Scatter Plot
 
 #### Risk Mapping
 
-| Axis | Measure |
-|--------|---------|
-| X-Axis | Total Sales |
+| Axis   | Measure       |
+| ------ | ------------- |
+| X-Axis | Total Sales   |
 | Y-Axis | Return Rate % |
 
 This helps identify high-revenue products with elevated return risks.
@@ -237,11 +251,11 @@ A dedicated Power BI Mobile Layout was designed to support smartphone users.
 
 ### Mobile Features
 
-- Single-column responsive layout.
-- Mobile-optimized KPI cards.
-- Touch-friendly slicers and navigation.
-- Enhanced chart readability.
-- Improved user experience across devices.
+* Single-column responsive layout.
+* Mobile-optimized KPI cards.
+* Touch-friendly slicers and navigation.
+* Enhanced chart readability.
+* Improved user experience across devices.
 
 ---
 
@@ -251,20 +265,20 @@ A dedicated Power BI Mobile Layout was designed to support smartphone users.
 
 A dedicated tooltip page displays:
 
-- Product-specific insights.
-- Dynamic 12-Month Sales Trend.
+* Product-specific insights.
+* Dynamic 12-Month Sales Trend.
 
 ### Bookmark Navigation
 
 Implemented using:
 
-- Selection Pane
-- Bookmark Pane
+* Selection Pane
+* Bookmark Pane
 
 Used for:
 
-- Filter Reset
-- Navigation Control
+* Filter Reset
+* Navigation Control
 
 ### Row-Level Security (RLS)
 
@@ -288,12 +302,12 @@ Users assigned to this role can only access North Region data while all other re
 
 ## ✅ Key Achievements
 
-- Implemented Star Schema modeling.
-- Developed advanced DAX calculations.
-- Built an interactive multi-page dashboard.
-- Designed separate desktop and mobile experiences.
-- Configured tooltips, bookmarks, and RLS.
-- Delivered actionable business insights.
+* Implemented Star Schema modeling.
+* Developed advanced DAX calculations.
+* Built an interactive multi-page dashboard.
+* Designed separate desktop and mobile experiences.
+* Configured tooltips, bookmarks, and RLS.
+* Delivered actionable business insights.
 
 ---
 
@@ -301,18 +315,18 @@ Users assigned to this role can only access North Region data while all other re
 
 ### Current Limitations
 
-- Static Row-Level Security.
-- No Dynamic RLS implementation.
-- Import Mode architecture.
-- No predictive forecasting capabilities.
+* Static Row-Level Security.
+* No Dynamic RLS implementation.
+* Import Mode architecture.
+* No predictive forecasting capabilities.
 
 ### Future Enhancements
 
-- Dynamic RLS using USERPRINCIPALNAME().
-- Cloud SQL integration.
-- DirectQuery implementation.
-- AI-powered forecasting.
-- Return risk prediction models.
+* Dynamic RLS using USERPRINCIPALNAME().
+* Cloud SQL integration.
+* DirectQuery implementation.
+* AI-powered forecasting.
+* Return risk prediction models.
 
 ---
 
@@ -329,14 +343,14 @@ Users assigned to this role can only access North Region data while all other re
 
 ## 🏆 Technologies Used
 
-- Power BI Desktop
-- Power Query
-- DAX (Data Analysis Expressions)
-- Data Modeling
-- Star Schema
-- Row-Level Security (RLS)
-- Bookmarks & Navigation
-- Responsive Mobile Layout
+* Power BI Desktop
+* Power Query
+* DAX (Data Analysis Expressions)
+* Data Modeling
+* Star Schema
+* Row-Level Security (RLS)
+* Bookmarks & Navigation
+* Responsive Mobile Layout
 
 ---
 
@@ -344,14 +358,13 @@ Users assigned to this role can only access North Region data while all other re
 
 This project demonstrates practical skills in:
 
-- Business Intelligence
-- Data Analytics
-- Dashboard Development
-- Data Modeling
-- Enterprise Reporting
-- Decision Support Systems
+* Business Intelligence
+* Data Analytics
+* Dashboard Development
+* Data Modeling
+* Enterprise Reporting
+* Decision Support Systems
 
 ---
 
 **Developed as part of POWER BI academic coursework in Business Intelligence, Data Analytics, and Enterprise Reporting.**
-````
