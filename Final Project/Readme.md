@@ -1,5 +1,5 @@
 ````markdown
-# Enterprise Sales BI & Return Risk Intelligence Dashboard
+## Enterprise Sales BI & Return Risk Intelligence Dashboard
 
 **Academic Semester VI Capstone Project**  
 **Track:** AI, Machine Learning & Data Science  
