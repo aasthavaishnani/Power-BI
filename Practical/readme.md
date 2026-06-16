@@ -53,6 +53,8 @@ The project utilizes four primary datasets with real-world noise (handled during
 ### 📈 Page 1: Academic Performance Overview
 
 Focuses on school-wide and class-level academic achievements.
+<img width="1260" height="712" alt="Academic Performance" src="https://github.com/user-attachments/assets/709ec2bd-6ed7-44e2-8c77-186c118dce30" />
+
 
 #### Top KPIs
 
@@ -78,6 +80,8 @@ Focuses on school-wide and class-level academic achievements.
 ### 📅 Page 2: Behavioral & Attendance Insights
 
 Tracks daily operational metrics and flags students requiring immediate attention.
+<img width="1261" height="716" alt="Behavioral   Attendance Insights" src="https://github.com/user-attachments/assets/a5cd6963-897d-427b-9767-adf981cdd9ad" />
+
 
 #### Top KPIs
 
@@ -102,6 +106,8 @@ Dynamically filters and displays students with negative behavioral incidents gre
 ### 👤 Page 3: Individual Student Profile (Drillthrough Page)
 
 A deep-dive view into a single student's record, accessible through drillthrough functionality from any student list.
+<img width="1262" height="713" alt="Student Profile" src="https://github.com/user-attachments/assets/57a1b1a3-95b4-466e-919d-7212a23714ef" />
+
 
 #### Student Metadata Card
 
