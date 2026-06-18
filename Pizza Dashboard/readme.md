@@ -18,7 +18,7 @@ The primary goal was to construct a robust analytical platform that eliminates m
 - **Advanced Slicer Synchronization:** Configured synchronized dynamic timeline sliders (Jan 15 - Dec 15) and categorical dropdown filters to enable instant visual updates across all charts with a single user selection.
 
 ### 3. Executive Visualization & UI Engineering
-- **High-Impact Corporate Themes:** Integrated a custom visual profile layout (`CY26SU02.json`) utilizing precise spacing, shadow borders, and cohesive typography designed to eliminate cognitive fatigue.
+- **High-Impact Corporate Themes:** Integrated a custom visual profile layout utilizing precise spacing, shadow borders, and cohesive typography designed to eliminate cognitive fatigue.
 - **Localized Resource Integration:** Enhanced visual storytelling by mapping custom infographic assets (`pizza-slice.png`, `delivery-man.png`, `profit-growth.png`) directly into structural KPI components and category segments.
 
 ---
