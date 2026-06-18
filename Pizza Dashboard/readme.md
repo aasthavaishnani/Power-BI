@@ -26,6 +26,9 @@ The primary goal was to construct a robust analytical platform that eliminates m
 ## 📊 Detailed Screen Structure & Analytical Breakdown
 
 ### Screen 1: Home / Macro Operations Panel 
+
+<img width="1440" height="790" alt="Home" src="https://github.com/user-attachments/assets/6b4704d6-cbd1-46bf-a983-bd8ff70f414e" />
+
 *   **Macro Scorecard Matrix:** Displays 5 floating executive KPI blocks outlining absolute metrics (Revenue, AOV, Total Units Sold, Total Orders, and Product Multiplier) for high-level health monitoring.
 *   **Temporal Trend Sub-System:**
     *   *Daily Trend (Bar Chart):* Tracks week-day traffic, capturing crucial supply-chain signals where orders maximize on weekends, specifically **Friday (3.5K)** and **Saturday (3.2K) evenings**.
@@ -36,6 +39,9 @@ The primary goal was to construct a robust analytical platform that eliminates m
     *   *Volume Ledger:* A horizontal ranking displaying that the Classic cluster captures maximum operational capacity with **14,888 units distributed**.
 
 ### Screen 2: Product Performance & Best/Worst Sellers 
+
+<img width="1440" height="791" alt="best-worst sellers" src="https://github.com/user-attachments/assets/28dfff8c-00b3-4ba9-bf57-81877baa38cb" />
+
 *   **Menu Engineering Side-Panel:** A dedicated automated summary board that instantly pinpoints top-tier velocity variants against absolute bottom-tier menu drains.
 *   **Top 5 Performance Quadrants:**
     *   *By Financial Returns:* Identifies **The Thai Chicken Pizza ($43K)** and *The Barbecue Chicken Pizza* as primary gross income pillars.
